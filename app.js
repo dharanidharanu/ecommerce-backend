@@ -9,7 +9,7 @@ const cartRoutes=require("./routes/cartRoutes")
 const orderRoutes=require("./routes/orderRoutes")
 const mongoose = require("mongoose");
 const port = 3000;
-mongoose.connect("mongodb://localhost:27017/e_commerence"
+mongoose.connect("mongodb+srv://dharanidharan2442:dharani@cluster0.hpmoibl.mongodb.net/e_commerence"
 ).then(()=>{
     console.log("connected to database");
 }).catch((e)=>{
